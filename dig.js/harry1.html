@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h1>welcome to the javascript</h1>
+    <div class="container">
+        <button id="click">click me</button>
+    </div>
+</body>
+<script>
+    //1.ways to print in javascript
+    //console.log("hello world");
+    //alert("me");
+    //document.write("this is document write");
+    //2.javascript console API
+    console.log("this is warning");
+    console.error("this is an error");
+    console.warn("this is warming");
+    //3.javascript varables
+    //what are variables?-container to store data
+    var number1=34;
+    var number2=56;
+    console.log(number1+number2);
+    //4.Dta types in javaScript
+    //Numbers
+    var num1=455;
+    var num2=56.76;
+    //String
+    var str1="This is a string";
+    var str2="This is also a string";
+    //Objects
+    var marks={
+        ravi:34,
+        shubham:78,
+        harry:99.977,
+    }
+    console.log(marks);
+    //Booleans
+    var a=true;
+    var b=false;
+    console.log(a,b);
+
+    var und =undefined;
+    console.log(und);
+
+    var n=null;
+    console.log(n);
+    // At a very high level ,there are two types of data types
+    // in javascript
+    // 1.Primitive data types:undefined,null,number,string,boolean,symbol
+    // 2.Reference data type:arrays & objects
+    var arr=[5,4,"rohan","shyam","vhk"];
+    //operators in javascript
+    //Arithmetic operators
+    var a=34;
+    var b=56;
+    // console.log("the value of a+b is",a+b);
+    // console.log("the value of a+b is",a-b);
+    // console.log("the value of a+b is",a*b);
+    // console.log("the value of a+b is",a/b);
+   //Assignment operators
+     var x=34;
+     var y=56;
+    //  console.log(x ==y);
+    //  console.log(x >=y);
+    //  console.log(x <=y);
+    //  console.log(x>y);
+    //  console.log(x<y);
+    //logical operators
+    //logical and
+    // console.log(true && true);
+    // console.log(true && false);
+    // console.log(false && false);
+    //logical not
+    // console.log(!false);
+    // console.log(!true);
+    //function in javaScript
+    //DRY=do not repeat yourself
+    // function avg(a,b){
+    //     c=(a+b)/2;
+    //     return c;
+    // }
+    // c1=avg(4,6);
+    // c2=avg(14,16);
+    // console.log(c1,c2);
+    //conditionals in javascript
+    // var age =41;
+    // //single if statement
+    // if(age>18){
+
+    //     console.log('you are not a kid');
+    // }
+    // else{
+    //     console.log('you are  a kid');
+    // }
+    var arr=[1,2,3,4,5,6,7];
+    // console.log(arr);
+    // for(var i=0;i<arr.length;i++){
+    //     console.log(arr[i]);
+    // }
+    arr.forEach(function(element){
+        console.log(element);
+    })
+
+    //if-elase Ladder
+    if (age>32){
+        console.log(" you are not a kid");
+}
+    else if(age>26){
+        console.log("bachhe nhi rahe");
+    }
+    else if(age>22){
+        console.log("yes bachhe nhi rahe");
+    }
+    else if(age>18){
+        console.log("kuch bachhe nhi rahe");
+    }
+    console.log("end of ladder");
+</script>
+</html>

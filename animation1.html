@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            border-color: red;
+            animation-name: exampleNew1;
+            animation-duration: 10s;
+             animation-iteration-count: 3;
+            animation-direction: alternate;
+            position: relative;
+        }
+        @keyframes example{
+            from{border-color: red;height: 100px;width: 200px}
+            to{
+                border-color:red;height: 50px;width: 400px;
+            }
+        }
+        @keyframes exampleNew{
+            0%{background-color: red;left: 200px;top: 0px;}
+            24%{background-color: red;left: 800px;top: 0px;}
+            59%{background-color: blue;left: 0px;top: 0px;}
+            99%{background-color: red;left: 800px;top: 0px;}
+            100%{background-color: blue;left: 0px;top: 0px;}
+        }
+        @keyframes exampleNew1{
+            0%{background-color: red;left: 0;top: 0px;}
+            49%{background-color: red;left: 110%;top: 0px;}
+            60%{background-color: blue;left: 100%;top: 0px;}
+            65%{background-color: red;left: 100%;top: 0px;}
+            95%{background-color: blue;left: 0;top: 0px;}
+            100%{background-color: blue;left: 0;top: 0px;}
+        }
+            
+        
+    </style>
+</head>
+<body>
+    <h1>css animation</h1>
+    <div></div>
+    <p><b>Note:-</b>when an animation is finished</p>
+</body>
+</html>

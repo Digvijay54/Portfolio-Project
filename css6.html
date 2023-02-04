@@ -1,8 +1,6 @@
 <head>
     <style>
-        .navbar{
-            background-color: aqua;
-        }
+        
         .navbar ul{
             overflow:auto;
             display:flex;
@@ -21,6 +19,7 @@
         .nav{
             position: sticky;
             top: -200px;
+            background-color: aqua;
         }
         .h1{
             text-align: center;
@@ -29,50 +28,86 @@
         .p{
             text-align: center;
         }
+        .text1{
+            position:absolute;
+           bottom: 50px;
+            left: 50px;
+            color: brown;
+            border: 2px;
+
+        }
+        .sticky{
+            position: sticky;
+            top: 30px;
+           background-color: aqua;
+           height: 10%;
+           width: 100%;
+        }
+        .ami{
+            background-color: blue;
+            color: black;
+            height: 20px;
+            width: 80px;
+        }
+        .fi{
+            color: blue;
+            text-align: center;
+        }
+        .banner-text{
+            text-align: center;
+            position: absolute;
+            bottom: 10%;
+            color: black;
+            padding: 20px;
+
+        }
+
     </style>
 </head>
     <body>
        
 <div style="height:10%;width:100%;background-color:black;"></div>
-<nav>
-<div style="float:left;height:10%;width:100%;background-color:aqua;margin-top:0%;">
-    <header>
+
+ <header>
+    <div class="sticky">
         <nav class="navbar">
             <ul> 
-   <li><img src="https://tse3.mm.bing.net/th?id=OIP.nC1JWo5Ae7_iRLsOdWmm0gHaHa&pid=Api&P=0" alt="logo" height="40";width="40"></li>
+   <li><img src="https://tse3.mm.bing.net/th?id=OIP.nC1JWo5Ae7_iRLsOdWmm0gHaHa&pid=Api&P=0" alt="logo" height="40";width="50"></li>
 
     
-        <li><a href="home">Home</a></li>
-        <li><a href="Contact Us">Contact Us</a></li>
-        <li><a href="carrier">Carrier</a></li>
-        <li><a href="Help">Help</a></li>
-        <li><a href="home">Story</a></li>
-        <li><a href="home">Inspirate</a></li>
+        <li><a href="https://sikkema.be/werkwijze-kleding-op-maat/">Home</a></li>
+        <li><a href="https://sikkema.be/accessoires/">Contact Us</a></li>
+        <li><a href="https://sikkema.be/inspiratie-bruidskleding-gent/">Carrier</a></li>
+        <li><a href="https://sikkema.be/sikkema-stories/">Help</a></li>
+        <li><a href="https://sikkema.be/waarom-sikkema/">Story</a></li>
+        <li><a href="https://sikkema.be/contact/">Inspirate</a></li>
 </ul>
-
 </nav>
-
 </div>
-<div>
-    <img src="https://sikkema.be/wp-content/uploads/2021/02/sikkema-elke-van-den-ende-335.jpg" width="100%" height="80%">
-</div>
-<br><br>
-<pre><p>n ons atelier in Gent ontvangen wij, de zussen Sikkema, 
-    je met open armen en opgerolde mouwen. Klaar om ieders maten
-     op te nemen! We zorgen voor een pasklaar antwoord en gaat 
-     voor niks minder dan mode die jou op het lijf geschreven is.
-      Altijd met gevoel voor stijl en oog voor kwaliteit.</p></pre>
-    <h1>Moderne bruidskleding</h1>
-    <br><br>
-    <aside><pre><p>Sikkema focust op moderne, minimalistische trouwkleding voor
-         de hedendaagse bruid. Strakke, eigentijdse doch tijdloze 
-         silhouetten uit kwaliteitsvolle materialen vormen het
-          startpunt van je droomjurk (or rok of broek). 
-          100 lagen tule zal je bij ons niet snel terugvinden maar
-           een streepje kant of een romantisch accent voegen we met
-            plezier voor je toe</p></pre></aside>
-            <aside><img src="https://sikkema.be/wp-content/uploads/2020/11/sikkema-248-500x700.jpg" height="100px" width="100px"></aside>
-
-    </header>
-</body>
-</html>
+</header>
+    <img src="https://sikkema.be/wp-content/uploads/2021/02/sikkema-elke-van-den-ende-335.jpg" height="90%" width="100%">
+        <div class="fi">
+        <h1>Plan je bezoek</h1>
+        <pre><p>In ons atelier in Gent ontvangen wij, de zussen Sikkema, 
+            je met open armen en opgerolde mouwen. Klaar om ieders
+             maten op te nemen! We zorgen voor een pasklaar antwoord
+             en gaat voor niks minder dan mode die jou op het lijf
+              geschreven is. Altijd met gevoel
+              voor stijl en oog voor kwaliteit.</p></pre>
+              <br>
+              <button><a href="https://sikkema.be/afspraak/"  placeholder="Plan je bezoek" >Plan je bezoek</a></button>
+            </div>
+            
+            <div>
+            <div style="height:70%;width:100%;background-color:rgb(171, 147, 147);"></div>
+        </div> 
+            <div class="banner-text">
+                    <h1>Moderne bruidskleding</h1>
+                <pre><p>Sikkema focust op moderne, minimalistische trouwkleding
+                     voor de hedendaagse bruid. Strakke, eigentijdse doch tijdloze
+                      silhouetten uit kwaliteitsvolle materialen vormen het startpunt
+                       van je droomjurk (or rok of broek). 100 lagen tule zal je biz
+                        ons niet snel terugvinden maar een streepje kant of een 
+                        romantisch accent voegen we met plezier voor je toe.</p></pre>
+                </div>
+       </body>

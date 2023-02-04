@@ -1,0 +1,10 @@
+import "./styles.css";
+
+export defaulf function App(){
+    return(
+        <div classs="parent"></div>
+        <div></div>
+        <div></div
+    )
+
+}

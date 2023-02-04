@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .flex-container{
+                border-color: aqua;
+                height: 600px;
+            }
+            .upperdiv{
+               display: flex;
+               align-items: flex-start;
+               justify-content: space-between;
+               margin: 10px;
+               border-color: blue;
+            }
+            .upperdiv>div{
+                width:100px;
+                margin: 10px;
+                border-color: blueviolet;
+                font-size: 30px;
+                text-align: center;
+                padding: 40px;
+            }
+            .inbetween{
+                height: 250px;
+            }
+            .lowerdiv{
+                display: flex;
+                align-items: flex-end;
+                flex-wrap: wrap;
+                margin-left: 18px;
+                width: 400px;
+            }
+            .lowerdiv>div{
+                width: 90px;
+                margin: 1px;
+                border-color: blueviolet;
+                font-size: 30px;
+                text-align: center;
+                padding: 15px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>The order property</h1>
+        <p>use the order to sort the flex</p>
+        <div class="flex-container">
+        <div class="upperdiv" >   
+            <div>1</div>
+            <div>2</div>
+        </div>
+        <div class="inbetween"></div>
+        <div class="lowerdiv">
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+        </div>
+        </div>
+    </body>
+</html>

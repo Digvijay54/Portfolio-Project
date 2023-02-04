@@ -1,32 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Template</title>
-    <style>
-      .box{
-        background-color: blueviolet;
-        display: inline-block;
-        border:2px solid red;
-        width:200px;
-        height:150px;
-        margin: 2px;
-      }
-      #box3{
-        position:sticky;
-        top: 3px;
-      }
-    </style>
-   
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keyframe & Animation</title>
 </head>
+<style>
+  .container{
+    background-color: greenyellow;
+    text-align: center;
+    color: white;
+  }
+  .box{
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    animation-name: Digvijay;
+    animation-name: Digvijay2;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+    animation-fill-mode: alternate;
+    animation-timing-function: ease-in-out;
+    /* animation-delay: 5s; */
+    animation-direction: reverse;
+  }
+  @keyframes Digvijay2{
+    0%{
+      top: 0px;
+      left: 0px;
+    }
+    5%{
+      top: 250px;
+      left: 0px;
+    }
+    20%{
+      top: 250px;
+      left: 250px;
+    }
+    45%{
+      top: 0px;
+      left: 250px;
+    }
+    60%{
+      top: 0px;
+      left: 250px;
+    }
+    75%{
+      top: 500px;
+      left: 20px;
+    }
+    85%{
+      top: 20px;
+      left: 800px;
+    }
+    100%{
+      top: 500px;
+      left: 1000px;
+    }
+  }
+  @keyframes Digvijay {
+    from {
+      width: 10px;
+    }
+    to{
+      width: 100%;
+    }
+  }
+</style>
 <body>
   <div class="container">
-  <div class="box" id="box1">1</div>
-  <div class="box" id="box2">2</div>
-  <div class="box" id="box3">chat with us</div>
-  <div class="box" id="box4">4</div>
-</div>
+    <div class="box">
+      <p><h1>THIS IS A BOX</h1>
+     <a href="google.com">google.com</a>
+     </p>
+    </div>
+
+  </div>
+  
 </body>
 </html>
